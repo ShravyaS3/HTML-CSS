@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,700;1,600&family=Mouse+Memoirs&family=Oswald:wght@200;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Mouse Memoirs";
+    letter-spacing: 2px;
+    
+} 
+body {
+    background-color: #000;
+    overflow-x: hidden;
+    
+}
+.info {
+    color: #fff;
+    width: 600px;
+    position: absolute;
+    left: 300px;
+    font-family: "Acme";
+}
+.info h1 {
+    position: relative;
+    left: 20px;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    text-align: center;
+    font-weight: 300;
+    -webkit-text-stroke-width: 0.5px;
+    color: transparent;
+    -webkit-text-stroke-color: rgb(187, 206, 232);
+}
+.info p {
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    font-family: "sanserif";
+    font-weight: 100;
+    color: rgb(53, 167, 216);
+    line-height: 1.6;
+    
+}
+.p h1 {
+    position: relative;
+    top: 180px;
+    left: 100px;
+    text-transform: uppercase;
+    color: rgb(53, 167, 216);
+    font-weight: 300;
+    
+}
+.pa h1 {
+    position: relative;
+    top: 180px;
+    left: 100px;
+    text-transform: uppercase;
+    color:  rgb(53, 167, 216);
+    font-weight: 300;
+}
+.p {
+    width: 1400px;
+    height: 400px;
+}
+.pa {
+    width: 1400px;
+    height: 400px;
+    background-color: rgb(38, 35, 35);
+}
+.button {
+    box-shadow: 0 0px 15px 3px rgb(19, 135, 167);
+    position: relative;
+    bottom: 120px;
+    left: 890px;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(51, 195, 235) ;
+    font-weight: 900;
+    font-size: medium;
+}
+.button:hover {
+    transition: 0.2s;
+    background-color: rgb(24, 236, 236);
+    color: #FFF;
+}
+.button:focus {
+    outline: none;
+}
+.btns {
+    width: 350px;
+    height: 250px;
+    background: #000;
+    border: none;
+    box-shadow: 0 0px 7px 0px  rgb(51, 195, 235);
+    position: relative;
+    top: 38px;
+    left: 400px;
+    transition: .2s;
+}  
+.btns:hover {
+    transform: scale(1.5); 
+}
+.projects {
+    position: relative;
+    top: 150px;
+    
+}
+.projectbtn {
+    position: relative;
+    top: 200px;
+    left: 500px;  
+}
+.btnp {
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.btnp:focus + .projects {
+    display:inline-block;
+}
